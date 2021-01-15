@@ -12,7 +12,7 @@ RUN apt update && \
     n stable
 RUN echo system installation done
 RUN echo start to clone from git \
-    && git clone --recursive https://github.com/UIUC-Go/Baduk-Online.git \
+    && git clone --recursive https://github.com/deuscaeli/Baduk-Online.git \
     && sh Baduk-Online/install.sh \
     && sh Baduk-Online/config.sh
 RUN echo git clone and server set up done
